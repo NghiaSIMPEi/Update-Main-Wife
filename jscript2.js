@@ -1,11 +1,11 @@
-function upDate(preview) {
+function upDate(previewPic) {
     console.log("Mouse active");
     console.log("Alt text: " + previewPic.alt);
     console.log("Image source: " + previewPic.src);
 
     var image = document.getElementById('image');
-    image.style.backgroundImage = "url('" + preview.src + "')";
-    image.innerHTML = preview.alt;
+    image.style.backgroundImage = "url('" + previewPic.src + "')";
+    image.innerHTML = previewPic.alt;
 }
 
 function undo() {
@@ -26,4 +26,5 @@ function addTabFocus() {
             undo();
         });
     });
+
 }
