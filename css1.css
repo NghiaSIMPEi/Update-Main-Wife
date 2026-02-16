@@ -1,0 +1,46 @@
+body {
+    background-color : #363333;
+    font-family : Arial, sans-serif;
+    text-align : center;
+}
+
+h1 {
+    color : #f4f0f0;
+    margin-top : 50px;
+}
+
+#image {
+    width : 200px;
+    height : auto;
+    margin-top : 20px;
+    border: #333333 solid 2px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #333333;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-size: medium;
+    color: blueviolet;
+}
+
+.Mainwife img {
+    margin-top : 20px;
+    padding : 10px 20px;
+    font-size : medium;
+    color : white;
+    background-color : #333333;
+    border : none;
+    border-radius : 5px;
+    cursor : pointer;
+}
+
+.Mainwife img:hover {
+    background-color : #555555;
+    transform : scale(1.01);
+}
