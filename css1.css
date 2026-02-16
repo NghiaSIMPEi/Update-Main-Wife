@@ -5,12 +5,13 @@ body {
 }
 
 h1 {
-    color : #f4f0f0;
+    color : #f0f0f0;
     margin-top : 50px;
     width : 80px;
     height : 80px;
     border: #ffffff solid 3px;
     border-radius: 10px;
+    font-size: medium;
 }
 
 #image {
@@ -49,3 +50,4 @@ h1 {
     transform : scale(1.01);
 
 }
+
